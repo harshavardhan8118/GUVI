@@ -1,0 +1,34 @@
+OBJECTS:
+
+Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.
+
+Objects and properties:
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object.
+An object property name can be any valid JavaScript string, or anything that can be converted to a string, including an empty string. However, any property name that is not a valid JavaScript identifier cannot use dot notation.
+JavaScript object property names (keys) can only be strings or Symbols — all keys in the square bracket notation are converted to strings unless they are Symbols. For example, in the above code, when the key anotherObj is added to the myObj, JavaScript will call the toString() method of anotherObj, and use the resulting string as the new key.
+
+Enumerate the properties of an object
+There are three native ways to list/traverse object properties:
+for...in loops. This method traverses all of the enumerable string properties of an object as well as its prototype chain.
+Object.keys(myObj). This method returns an array with only the enumerable own string property names ("keys") in the object myObj, but not those in the prototype chain.
+Object.getOwnPropertyNames(myObj). This method returns an array containing all the own string property names in the object myObj, regardless of if they are enumerable or not.
+
+Using the Object.create method
+Objects can also be created using the Object.create() method. This method can be very useful, because it allows you to choose the prototype object for the object you want to create, without having to define a constructor function.
+
+Inheritance
+All objects in JavaScript inherit from at least one other object. The object being inherited from is known as the prototype, and the inherited properties can be found in the prototype object of the constructor. See Inheritance and the prototype chain for more information.
+
+Defining methods
+A method is a function associated with an object, or, put differently, a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object.
+
+Defining getters and setters
+A getter is a method that gets the value of a specific property. A setter is a method that sets the value of a specific property. You can define getters and setters on any predefined core object or user-defined object that supports the addition of new properties.
+
+Getters and setters can be either
+
+defined using object initializers, or
+added later to any object at any time using a getter or setter adding method.
+When defining getters and setters using object initializers all you need to do is to prefix a getter method with get and a setter method with set. Of course, the getter method must not expect a parameter, while the setter method expects exactly one parameter (the new value to set).
+
+
