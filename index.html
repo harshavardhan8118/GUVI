@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        body {
+            border: solid lightblue 10px;
+            padding: 10px;
+        }
+
+        h1 {
+            color: crimson;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        table,
+        thead,
+        tr,
+        td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 10px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row" style="margin-left:10px;">
+
+        <div class="col-4" style="border-right:3px solid;">
+            <h1 id="title"> DOM Form </h1>
+            <p id="description">Populating input field value in the table by clicking submit button</p>
+
+        <form class="form" id="form">
+          
+            <label for="first-name" class="title">FirstName:</label>
+            <input type="text" name="first-name" id="first-name" value="" placeholder="first-name" required><br>
+            <span id="first-name"></span>
+            <br>
+
+            <label for="last-name" class="title">Lastname:</label>
+            <input type="text" name="last-name" id="last-name" value="" placeholder="last-name" required><br><br>
+
+            <label for="address" class="title">Address:</label>
+            <textarea rows="5" cols="30" id="address" value="" placeholder="address" required></textarea><br><br>
+
+            <label for="pincode" class="title">Pincode:</label>
+            <input type="text" name="pincode" id="pincode" value="" placeholder="number" required><br><br>
+
+            <span class="title">Gender:</span><br>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" name="gender" id="other" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <span class="title">Choice of food: </span><br>
+            <span>(Choose at least two)</span><br>
+
+            <select name="foods" id="foods" multiple>
+
+                <option value="Paneer Tikka">Paneer Tikka</option>
+                <option value="Butter Naan">Butter Naan</option>
+                <option value="Roti">Roti</option>
+                <option value="Noodles">Noodles</option>
+                <option value="Fruit Salad">Fruit Salad</option>
+
+            </select><br /><br />
+
+            <label for="state" class="title">State:</label>
+            <input type="text" name="state" id="state" value="" placeholder="state" required><br><br>
+
+            <label for="country" class="title">Country:</label>
+            <input type="text" name="country" id="country" value="" placeholder="country" required><br><br>
+
+            <button class="btn btn-primary" style="margin: 10px;" type="submit" id="submit">Submit</button> 
+        </form>    
+    </div>
+
+    <div class="col-8">
+        <h3>User Table</h3>
+        <table id="table">
+            <thead>
+                <td>FirstName</td>
+                <td>LastName</td>
+                <td>Address</td>
+                <td>Pincode</td>
+                <td>Gender</td>
+                <td>Choice of food</td>
+                <td>State</td>
+                <td>Country</td>
+            </thead>
+        </table>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</html>
