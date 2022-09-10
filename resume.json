@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Harshavardhan",
+    "email": "harshavardhan.ap97@gmail.com",
+    "phone": "7708788004",
+    "summary": "I am harshavardhan graduated from VCET in B.E.Biomedical Engineering",
+    "location": {
+      "address": "3A,1st Floor",
+      "postalCode": "Mahadevpura",
+      "city": "BLR",
+      "countryCode": "IN",
+      "region": "KA"
+    },
+    "profiles": [
+      {
+        "network": "facebook",
+        "username": "harshavardhan",
+        "url": "https://facebook.com/harshavardhan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Amazon",
+      "position": "Catalog Associate",
+      "url": "https://amazon.com",
+      "startDate": "08-06-2020",
+      "endDate": "present",
+      "summary": "The job looks into the wide field of MACHINE LEARNING, cocepts of dealing with entities and intents"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Rotract",
+      "position": "Vice-president",
+      "url": "https://www.rotract.com/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Anna University",
+      "url": "https://annauniversity.com/",
+      "area": "Biomedical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "20-06-2014",
+      "endDate": "20-07-2018",
+      "score": "5.6"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "IBM Watson",
+      "date": "20-07-2020",
+      "issuer": "IBM"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Hard Skills",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Python",
+        "SQL",
+        "IBM Watson",
+        "JavaScript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Hindi",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Writing"
+    }
+  ]
+}
