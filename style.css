@@ -1,0 +1,50 @@
+body{
+    margin: 20px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    
+    text-shadow: 2px 2px 4px #0738d6d7;
+    border-radius: 20px;
+    
+    padding: 20px;
+    font-size: 80px;
+}
+h2{
+    text-align: center;
+    color: paleturquoise;
+}
+
+.contentDiv{
+    display: flex;
+    justify-content: left;
+    
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(14, 36, 236);
+    color: rgb(36, 238, 18);
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-top: 5px solid white;
+        border-left: 5px solid yellow;
+    width: 150px;
+    justify-content: space-between;
+    
+}
+
+.imageDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+img{
+    width:400px;
+    height: 400px;
+}
