@@ -1,0 +1,221 @@
+body{
+    background-image: radial-gradient(#a23982,#1f1013);
+}
+
+.intalt{
+    position: relative;
+      background-color: red;
+      border-radius: 50%;
+      color: white;
+      right:28px;
+      top: -8px;
+      font-size: 12px;
+}
+
+.intro{
+    color: white;
+    font-family: "Lucida Console";
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border-style: hidden;
+    text-shadow: 11px 4px 6px black;
+}
+
+hr{
+    border-color: yellow;
+    text-shadow: 50px;
+    display: flex ;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-width: 1px;
+    
+}
+
+.splhr{
+    border-color: yellow;
+    text-shadow: 50px;
+    display: flex ;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-width: 1px;
+}
+
+.splhr1{
+    border-color: yellow;
+    text-shadow: 50px;
+    display: flex ;
+    margin-top: -50px;
+    margin-bottom: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-width: 1px;
+}
+
+.user-dp {
+    height: 200px;
+    width: 200px;    
+    position: absolute;
+    top: 25px;
+    font-size: 12px;
+    right: 200px;
+}
+
+.user-dp img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about{
+    color: white;
+    font-family: "Lucida Console";
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border-style: hidden;
+    
+}
+
+.about1{
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 11px 4px 6px beige;
+}
+
+.about2{
+    color: green;
+    font-size: 20px;
+}
+
+.skl{
+    font-family: "Lucida Console";
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border-style: hidden;   
+}
+
+.skl1{
+    background-color: blue;
+    width: 100px;
+  height: 25px;
+  color: yellow;
+  text-align: center;
+  box-shadow: 5px 3px 2px green;
+  display: inline-flex;
+  flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border: hidden;
+    display: inline-flex;
+    flex-wrap: nowrap;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+}
+th, td{
+    padding: 20px 40px;
+    border: hidden;
+    color: yellow;
+}
+
+td{
+    color: white;
+}
+
+.frm{
+    color: yellow;
+    font-family: "Lucida Console";
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border-style: hidden;
+}
+
+input{
+    color: black;
+    font-family: "Lucida Console";
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    width: 200px;
+   height: 20px;
+}
+
+textarea{
+    color: black;
+    font-family: "Lucida Console";
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-bottom: -10px;
+    width: 300px;
+   height: 60px;
+}
+
+.sub{
+    color: white;
+    background-color: blue;
+    margin-right: 200px;
+    margin-left: 300px;
+    width: 70px;
+    height: 30px;
+}
+
+.res{
+    color: yellow;
+    background-color: rgb(252, 5, 120);
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 80px;
+    font-size: 48px;
+    border: hidden;
+    text-shadow: 5px 1px 6px yellow;
+}
+
+.li{
+    background-color: skyblue;
+    color: white;
+    font-size: 44px;
+    font-style: bold;
+    height: 50px;
+    width: 50px;    
+    position: absolute;
+    top:1768px;
+    right: 500px;
+    border: hidden;
+}
+
+.git{
+    background-image: url(./github.svg);
+    height: 49px;
+    width: 48px;
+    border: hidden;    
+    position: absolute;
+    top:1768px;
+    right: 400px;
+    border-radius: 50%;
+}
